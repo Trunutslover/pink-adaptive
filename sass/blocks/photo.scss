@@ -1,0 +1,171 @@
+.photo {
+
+}
+
+.photo__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.photo__item {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.photo__item--of-the-day {
+  &::before {
+    content: "Панорама дня";
+    display: block;
+    width: 140px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #D22856;
+  }
+}
+
+.photo__image {
+  margin: 0 auto;
+  display: block;
+}
+
+.photo__caption {
+  margin: 0 auto;
+  width: 280px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.photo__title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.photo__time {
+  margin: 0;
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.photo__description {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.photo__likes {
+  margin: 0;
+  padding-left: 30px;
+  font-size: 11px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #d22856;
+  background: url("../img/photo__likes-heart.svg") no-repeat 0 50%;
+  background-size: 13px 12px;
+}
+
+.photo__description--last {
+  width: 280px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media (min-width: 660px) {
+  .photo__items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+    margin: 0 auto;
+  }
+
+  .photo__item {
+    width: 300px;
+  }
+
+  .photo__item--of-the-day {
+    width: 660px;
+
+    &::before {
+      top: 60px;
+    }
+  }
+
+  .photo__caption {
+    width: 300px;
+    min-height: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .photo__item--of-the-day .photo__caption {
+    width: 620px;
+  }
+
+  .photo__likes {
+    padding: 0;
+    background-position: 100% 50%;
+  }
+
+  .photo__item--of-the-day .photo__likes {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 110px;
+  }
+
+  .photo__description--last {
+    width: 620px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo__items {
+    width: 1200px;
+    justify-content: center;
+  }
+
+  .photo__item {
+    width: 320px;
+    margin: 0;
+  }
+
+  .photo__item--of-the-day {
+    width: 1200px;
+
+    &::before {
+      top: 60px;
+    }
+  }
+
+  .photo__item--of-the-day .photo__caption {
+    width: 940px;
+  }
+
+  .photo__description--last {
+    font-size: 18px;
+  }
+}

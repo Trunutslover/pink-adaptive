@@ -1,0 +1,208 @@
+.copyright-social {
+  display: none;
+}
+
+.inner-footer .copyright-social {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 200px;
+  padding-left: 8%;
+  padding-right: 8%;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.inner-footer .copyright-social__logo {
+  display: block;
+  width: 147px;
+  height: 40px;
+
+  &:hover .st0 {
+    fill: #d22856;
+  }
+
+  &:active .st0,
+  &:active .st1,
+  &:active .google {
+    fill: #bec2c7;
+  }
+}
+
+.inner-footer .copyright-social__logo .st0 {
+  fill: #000000;
+}
+
+.inner-footer .copyright-social__logo .google--simple {
+  fill: #d22856;
+}
+
+.inner-footer .copyright-social__socials {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-footer .copyright-social__item {
+  width: 45px;
+  height: 45px;
+  border: 3px solid #f2f2f2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &:hover {
+    border-color: #283645;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.inner-footer .copyright-social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.inner-footer .copyright-social__icon {
+  fill: #d22856;
+}
+
+.inner-footer .copyright-social__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+
+.inner-footer .copyright-social__html-academy-logo {
+  &:hover .cls-1 {
+    fill: #283645;
+  }
+
+  &:active .cls-1 {
+    fill: #bec2c7;
+  }
+}
+
+@media (min-width: 660px) {
+  .copyright-social,
+  .inner-footer .copyright-social {
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .copyright-social__logo {
+    display: block;
+    width: 147px;
+    height: 40px;
+
+    &:hover .st0 {
+      fill: #d22856;
+    }
+
+    &:active .st0,
+    &:active .st1,
+    &:active .google {
+      fill: #bec2c7;
+    }
+  }
+
+  .copyright-social__logo .st0 {
+    fill: #000000;
+  }
+
+  .copyright-social__logo .google--simple {
+    fill: #d22856;
+  }
+
+  .copyright-social__socials {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright-social__item {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #f2f2f2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    &:hover {
+      border-color: #283645;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+
+  .copyright-social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .copyright-social__icon {
+    fill: #d22856;
+  }
+
+  .copyright-social__copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+  }
+
+  .copyright-social__html-academy-logo {
+    &:hover .cls-1 {
+      fill: #283645;
+    }
+
+    &:active .cls-1 {
+      fill: #bec2c7;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .copyright-social__logo  .google .st0 {
+    fill: #d22856;
+  }
+
+  .copyright-social__logo .stars .st1,
+  .copyright-social__logo .st1 {
+    fill: black;
+  }
+}

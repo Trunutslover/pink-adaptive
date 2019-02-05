@@ -1,0 +1,67 @@
+$main-nav__bg-color: #283645;
+$link-hover-color: #d22856;
+
+@font-face {
+  font-family: 'open_sans';
+  font-display: swap;
+  src:
+    url('../fonts/OpenSans-Semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sans';
+
+  src:
+          url('../fonts/OpenSans-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sans';
+
+  src:
+          url('../fonts/OpenSans-Light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sans';
+
+  src:
+          url('../fonts/OpenSans-Bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open_sans", "Arial", sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+@import "blocks/main-nav.scss";
+@import "blocks/download.scss";
+@import "blocks/promo.scss";
+@import "blocks/opportunities.scss";
+@import "blocks/effect.scss";
+@import "blocks/reviews.scss";
+@import "blocks/features.scss";
+@import "blocks/contacts.scss";
+@import "blocks/map.scss";
+@import "blocks/copyright-social.scss";
+@import "blocks/heading.scss";
+@import "blocks/photo.scss";
+@import "blocks/upload.scss";
+@import "blocks/form.scss";

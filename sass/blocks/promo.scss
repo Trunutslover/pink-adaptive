@@ -1,0 +1,31 @@
+.promo {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.promo__description {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #283645;
+}
+
+@media (min-width: 660px) {
+  .promo__description {
+    font-size: 40px;
+
+    &:nth-child(2) {
+      margin-bottom: 0;
+    }
+
+    &:last-child {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .promo__description {
+    font-size: 50px;
+  }
+}

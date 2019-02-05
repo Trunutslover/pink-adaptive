@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 21.7 16.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d22856;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>form__checkbox--on</title>
+  <line class="cls-1" x1="6.61" y1="15.09" x2="20.7" y2="1"/>
+  <line class="cls-1" x1="6.61" y1="15.09" x2="1" y2="9.48"/>
+</svg>

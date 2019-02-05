@@ -1,0 +1,67 @@
+.effect {
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .effect {
+    display: flex;
+    padding: 58px 6%;
+  }
+
+  .effect__image {
+    margin-right: 70px;
+  }
+
+  .effect__col {
+
+  }
+
+  .effect__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .effect__description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #283645;
+  }
+
+  .effect__link {
+    font-size: 14px;
+    line-height: 24px;
+    color: #d22856;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .effect {
+    padding: 58px 21%;
+    background-color: #f2f2f2;
+  }
+
+  .effect__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .effect__description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #283645;
+  }
+
+  .effect__link {
+    font-size: 18px;
+    line-height: 30px;
+    color: #d22856;
+  }
+}

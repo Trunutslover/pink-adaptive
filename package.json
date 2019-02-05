@@ -1,0 +1,24 @@
+{
+  "name": "adaptive-sedona",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-csso": "^2.2.4",
+    "grunt-juwain-posthtml": "^0.6.0",
+    "grunt-sass": "^3.0.2",
+    "imagemin-jpegtran": "^6.0.0",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "^4.11.0",
+    "posthtml-include": "^1.2.0"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "start": "npm run build && grunt serve"
+  }
+}

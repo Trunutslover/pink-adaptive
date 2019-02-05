@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="7.59mm" height="14.6mm" viewBox="0 0 21.53 41.37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <title>reviews__left-arrow</title>
+  <path class="cls-1" d="M2,20.69,21.28,1.43a.83.83,0,0,0,0-1.18.84.84,0,0,0-1.19,0L.25,20.09a.84.84,0,0,0,0,1.19L20.09,41.13a.86.86,0,0,0,.6.24.84.84,0,0,0,.59-1.43Z" transform="translate(0 0)"/>
+</svg>

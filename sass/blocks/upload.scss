@@ -1,0 +1,130 @@
+.upload {
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #f2f2f2;
+}
+
+.upload__photo {
+  display: block;
+  margin: 0 auto;
+}
+
+.upload__effect-selector {
+  width: 240px;
+  min-height: 100px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.upload__effect-button {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  padding: 0;
+  border: none;
+  background: none;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.upload__effect-icon {
+  fill: #b5b9be;
+}
+
+.upload__effect-icon--active {
+  fill: #d22856;
+}
+
+.upload__range {
+  width: 100%;
+}
+
+.upload__buttons {
+  padding-top: 40px;
+  border-top: 1px solid #dddfe0;
+}
+
+.upload__button {
+  display: block;
+  width: 280px;
+  height: 55px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid #d22856;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #d22856;
+  background: none;
+}
+
+.upload__button--disabled {
+  border-color: #dddfe0;
+  color: #dddfe0;
+}
+
+@media (min-width: 660px) {
+  .upload {
+    width: 660px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .upload__photo {
+    margin: 0;
+  }
+
+  .upload__effect-selector {
+    width: 275px;
+  }
+
+  .upload__button {
+    width: 260px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .upload {
+    width: 940px;
+    padding: 60px 60px 60px 80px;
+  }
+
+  .upload__second-col {
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .upload__effect-selector {
+    width: 410px;
+    justify-content: space-between;
+  }
+
+  .upload__buttons {
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .upload__button {
+    width: 183px;
+  }
+}
